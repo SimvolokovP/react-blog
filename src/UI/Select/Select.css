@@ -1,0 +1,6 @@
+.app-select {
+    background-color: #F9F5FF;
+    border: none;
+    border-bottom: 1px solid var(--inner-color);
+    width: 100%;
+}

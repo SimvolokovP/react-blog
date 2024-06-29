@@ -1,0 +1,34 @@
+.posts-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--inner-color);
+}
+
+.posts-control div {
+    text-align: center;
+    width: 100%;
+}
+
+.posts-control label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.posts-control label input {
+    background-color: transparent;
+    color: var(--inner-color);
+    border: none;
+    border-bottom: 1px solid var(--inner-color);
+    width: 100%;
+}
+
+.posts-control__reset {
+    background-color: transparent;
+    color: var(--inner-color);
+    border: none;
+    cursor: pointer;
+}
